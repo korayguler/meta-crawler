@@ -1,0 +1,24 @@
+{
+  "name": "meta-crawler",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "repository": "https://github.com/koative/meta-crawler",
+  "author": "Koray Guler",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon main.js",
+    "build": "babel main.js -d dist --presets minify"
+  },
+  "dependencies": {
+    "got": "^11.8.2",
+    "jsdom": "^17.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "babel-preset-minify": "^0.5.1",
+    "nodemon": "^2.0.13"
+  }
+}
