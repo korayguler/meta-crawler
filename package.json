@@ -7,7 +7,7 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "start": "nodemon main.js",
+    "start": "nodemon main.js"
   },
   "dependencies": {
     "axios": "^0.22.0",
